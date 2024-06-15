@@ -1,0 +1,583 @@
+.header {
+    border: 2px solid rgb(218, 29, 29);
+    height: auto;
+    width: 100%;
+    background-color: rgb(218, 29, 29);
+    position: relative;
+    padding-top: 10px;
+}
+
+.saran {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+}
+
+.border {
+    margin-top: -2px;
+    margin-left: 17px;
+}
+
+.teju {
+    height: auto;
+    margin-left: -268px;
+}
+
+.pers {
+    margin-top: -9px;
+    font-size: 35px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    z-index: 10;
+}
+
+.hb {
+    width: 130px;
+    height: auto;
+    margin-top: -7px;
+    margin-left: -70px;
+}
+
+.la img {
+    height: auto;
+    width: 170px;
+    margin-top: -13px;
+}
+
+.icon {
+    margin-top: -15px;
+    margin-right: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 15;
+}
+
+.navbar li {
+    margin-top: -10px;
+}
+
+.dropdown {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 19%;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+}
+
+.dropdown4 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 230px;
+    width: 19%;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+}
+
+.navbar .ramu:hover>.dropdown4 {
+    transform: translateY(0);
+}
+
+.dd1 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: 7px;
+}
+
+.dd2 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: -1px;
+}
+
+.navbar .ramu:hover>.dropdown {
+    transform: translateY(0);
+}
+
+.dd7 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: 7px;
+}
+
+.dd8 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: px;
+}
+
+.dd3 {
+    color: rgb(45, 171, 209);
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.icon,
+i {
+    margin-left: 27px;
+}
+
+.dropdown2 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 100px;
+    width: 19%;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+}
+
+.navbar .ramu:hover>.dropdown2 {
+    transform: translateY(0);
+}
+
+.dd5 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: 7px;
+}
+
+.dd4 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: px;
+}
+
+.dropdown3 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 180px;
+    width: 19%;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+}
+
+.navbar .ramu:hover>.dropdown3 {
+    transform: translateY(0);
+}
+
+.dd6 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: 7px;
+}
+
+.dd9 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: px;
+}
+
+.dropdown5 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 300px;
+    width: 19%;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+}
+
+.navbar .ramu:hover>.dropdown5 {
+    transform: translateY(0);
+}
+
+.dd11 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: 7px;
+}
+
+.dd12 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: px;
+}
+
+.dropdown6 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 420px;
+    width: 19%;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+}
+
+.navbar .ramu:hover>.dropdown6 {
+    transform: translateY(0);
+}
+
+.dd16 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: 7px;
+}
+
+.dd17 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: px;
+}
+
+.dropdown7 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 720px;
+    width: 19%;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+}
+
+.navbar .ramu:hover>.dropdown7 {
+    transform: translateY(0);
+}
+
+.dropdown11 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 320px;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+
+}
+
+.navbar .ramu:hover>.dropdown11 {
+    transform: translateY(0);
+}
+
+.dropdown21 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 320px;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+
+}
+
+.navbar .ramu:hover>.dropdown21 {
+    transform: translateY(0);
+}
+.dropdown88 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    padding: 50px 30px 30px;
+    background-color: white;
+    transform: translateY(-150%);
+    transition: transform .7s linear;
+
+}
+
+.navbar .ramu:hover>.dropdown88 {
+    transform: translateY(0);
+}
+
+.remo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.remo1 {
+    display: flex;
+}
+
+.remo2 {
+    display: flex;
+}
+
+.dd18 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-right: 7px;
+}
+
+.dd19 {
+    border-right: 1px solid black;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card .btn.btn-primary {
+    margin-left: 70px;
+}
+
+.card-body h5 {
+    margin-left: 50px;
+}
+
+.card-body p {
+    margin-left: 100px;
+}
+
+.saisaran iframe {
+    margin-top: 60px;
+    margin-left: 790px;
+}
+
+.saisaran h5 {
+    font-size: 30px;
+    margin-top: -380px;
+    margin-left: 240px;
+}
+
+.saisaran p {
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.desktop img {
+    margin-top: 90px;
+    margin-left: 0px;
+    width: 100vw;
+}
+
+.heading {
+    margin-left: 700px;
+    margin-top: -300px;
+
+}
+
+.null {
+    color: green;
+    font-style: inherit;
+    margin-left: 700px;
+    font-size: 50px;
+}
+
+.message {
+    margin-left: 700px;
+}
+
+.bittu button {
+    width: 300px;
+    height: auto;
+    background-color: rgb(19, 80, 202);
+    color: white;
+    margin-left: 700px;
+    border-radius: 10px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tn2 {
+    margin-left: 80px;
+}
+
+.seals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -210px;
+    margin-top: -130px;
+}
+
+.se2 {
+    margin-right: 160px;
+}
+
+.cust {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+
+.card100 img {
+    border: 1px solid black;
+    height: auto;
+    width: 100px;
+    border-radius: 150px;
+    margin-left: 110px;
+}
+
+.rev {
+    margin-top: 20px;
+}
+
+#carouselExample {
+    position: relative;
+    z-index: 1;
+}
+.truck{
+    margin-top: -44px;
+}
+.veh i {
+    font-size: 40px;
+    margin-left: -10px;
+}
+
+.veh {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.ramakrishna {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    position: relative;
+    z-index: -5;
+}
+.nani{
+    margin-top: 50px;
+    margin-left: -340px;
+}
+.swamy{
+    margin-top: 70px;
+    margin-left: -420px;
+}
+.cont{
+    margin-top: 10px;
+}
+.green{
+    font-size: 18px;
+    color: green;
+    display: flex;
+    margin-left: 520px;
+    margin-top: -18px;
+}
+.logo img{
+    height: 50px;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: -17px;
+}
+.babe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -14px;
+}
+.babe img{
+    height: 250px;
+    width: 250px;
+}
+.acc{
+    margin-top: -190px;
+}
+.pic{
+    margin-top: -80px;
+}
+.varma{
+    margin-top: -13px;
+    margin-left: 560px;
+}
+.boxe1{
+    height: 50px;
+    width: 120px;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 30px;
+}
+.boxe2{
+    height: 50px;
+    width: 120px;
+    border: 2px solid black;
+    background-color: black;
+    margin-left: -1160px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.boxes h5 {
+    color: rgb(255, 251, 251);
+}
+.boxe1 h5{
+    margin-top: 18px;
+}
+.boxe2 h5{
+    margin-top: -21px;
+}
+.boxes p{
+    color: rgb(13, 1, 1);
+    margin-top: -50px;
+}
+.boxes i{
+    color: white;
+}
+
